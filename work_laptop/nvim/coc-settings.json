@@ -1,0 +1,18 @@
+{ 
+ "languageserver": {
+      "ccls": {
+      "command": "/home/fixer/Documents/ccls/Release/ccls",
+      "filetypes": ["c", "cpp", "cuda", "objc", "objcpp"],
+      "rootPatterns": ["compile_commands.json", ".ccls", ".root", ".git/"],
+      "initializationOptions": {
+        "cacheDirectory": "/tmp/ccls"
+      }
+    }, 
+      "rust": {
+      "command": "ra_lsp_server",
+      "filetypes": ["rust"],
+      "rootPatterns": ["Cargo.toml"]
+    }
+  }
+}
+
