@@ -1,0 +1,7 @@
+{
+  "python.jediEnabled": true,
+  "python.jediPath": "/home/fixer/.local/lib/python3.6/site-packages/jedi/",
+  "python.linting.enabled": true,
+  "python.linting.pep8Enabled": true,
+  "clangd.path": "/home/fixer/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd"
+}
